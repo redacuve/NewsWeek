@@ -37,6 +37,10 @@
   font-size: 15px;
 }
 
+.fsize-13p {
+  font-size: 13px;
+}
+
 .fsize-20p {
   font-size: 1.53rem;
 }
@@ -111,15 +115,15 @@
   padding-left: 10px;
 }
 
-.nInMagazine {
+.nInMagazine, .nEditorPicks {
   padding: 20px 0;
 }
 
-.nInMagazine .logo {
+.nInMagazine .logo, .nEditorPicks .logo {
   width: 40px;
 }
 
-.nInMagazine span {
+.nInMagazine span, .nEditorPicks span {
   padding-left: 20px;
 }
 
