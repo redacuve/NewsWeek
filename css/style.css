@@ -92,6 +92,15 @@
 .opinion hr {
   border-top: 2px solid rgba(0,0,0,.1);
 }
+
+.signup .logo-container {
+  width: 30px;
+}
+
+.signup .logo {
+  width: 100%;
+}
+
 @media(max-width: 767px){
   .more-stories .histories {
     min-height: 210px;
