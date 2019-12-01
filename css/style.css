@@ -29,6 +29,10 @@
   color: rgba(39,39,39,.5);
 }
 
+.fsize-10p {
+  font-size: 10px;
+}
+
 .fsize-15p {
   font-size: 15px;
 }
@@ -90,17 +94,22 @@
 }
 
 .opinion hr {
-  border-top: 2px solid rgba(0,0,0,.1);
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.signup .logo-container {
-  width: 30px;
+.signup {
+  width: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .signup .logo {
-  width: 100%;
+  width: 30px;
+  height: 30px;
 }
 
+.signup .logo-container span {
+  padding-left: 10px;
+}
 @media(max-width: 767px){
   .more-stories .histories {
     min-height: 210px;
