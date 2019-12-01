@@ -113,16 +113,22 @@
   }
 
   .latest-news .histories {
-    min-height: 210px;
+    min-height: 180px;
+  }
+
+  .latest-news hr {
+    margin: 0 .5rem;
   }
 
   .latest-news .histories .history-img-container {
-    width: 200px;
+    width: 250px;
+    height: 164px;
+    overflow: hidden;
     float: left;
   }
 
   .latest-news .histories .history-text {
-    width: calc(100% - 200px);
+    width: calc(100% - 250px);
     display: inline-block;
   }
 
