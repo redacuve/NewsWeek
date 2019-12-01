@@ -89,14 +89,10 @@
   font-size: 14px;
 }
 
-.opinion .author-info hr {
-  
+.opinion hr {
+  border-top: 2px solid rgba(0,0,0,.1);
 }
 @media(max-width: 767px){
-  .more-stories p {
-    font-size: 13px;
-  }
-
   .more-stories .histories {
     min-height: 210px;
   }
@@ -112,6 +108,25 @@
   }
 
   .more-stories .histories .history-text p {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .latest-news .histories {
+    min-height: 210px;
+  }
+
+  .latest-news .histories .history-img-container {
+    width: 200px;
+    float: left;
+  }
+
+  .latest-news .histories .history-text {
+    width: calc(100% - 200px);
+    display: inline-block;
+  }
+
+  .latest-news .histories .history-text p {
     width: 100%;
   }
 }
