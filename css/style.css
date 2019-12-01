@@ -110,6 +110,25 @@
 .signup .logo-container span {
   padding-left: 10px;
 }
+
+.nInMagazine {
+  padding: 20px 0;
+}
+
+.nInMagazine .logo {
+  width: 40px;
+}
+
+.nInMagazine span {
+  padding-left: 20px;
+}
+
+.nInMagazine-container .histories span {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0 10px;
+}
+
 @media(max-width: 767px){
   .more-stories .histories {
     min-height: 210px;
