@@ -41,12 +41,16 @@
   font-size: 13px;
 }
 
-.fsize-20p {
-  font-size: 1.53rem;
+.fsize-14p {
+  font-size: 14px;
 }
 
-.section-title {
-  font-size: 16px;
+.fsize-17p {
+  font-size: 17px;
+}
+
+.fsize-20p {
+  font-size: 1.53rem;
 }
 
 .history-img {
@@ -89,15 +93,7 @@
   width: calc(100% - 70px);
 }
 
-.opinion .author-info h4 {
-  font-size: 17px;
-}
-
-.opinion .author-info p {
-  font-size: 14px;
-}
-
-.opinion hr {
+.opinion hr, .footer hr {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -135,6 +131,16 @@
 
 .bg-slideshow {
   background: url(../resources/icon-slideshows-nw.png) 0/contain no-repeat;
+}
+
+.leaf {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+}
+
+.fline-15p {
+  line-height: 15px;
 }
 @media(max-width: 767px){
   .more-stories .histories {
