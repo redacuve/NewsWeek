@@ -119,7 +119,7 @@
   padding: 20px 0;
 }
 
-.nInMagazine .logo, .nEditorPicks .logo {
+.nInMagazine .logo, .nEditorPicks .logo, .fSlideshows .logo {
   width: 40px;
 }
 
@@ -133,6 +133,9 @@
   padding: 0 10px;
 }
 
+.bg-slideshow {
+  background: url(../resources/icon-slideshows-nw.png) 0/contain no-repeat;
+}
 @media(max-width: 767px){
   .more-stories .histories {
     min-height: 210px;
