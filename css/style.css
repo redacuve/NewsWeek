@@ -148,6 +148,13 @@
   width: 50%;
 }
 
+.news .histories .history-img-container img {
+  width: 200px;
+}
+
+.news .histories {
+  min-height: 200px;
+}
 .history-img-wrap .img-cover {
   top: 1.56em;
   left: 3.00em;
