@@ -111,10 +111,6 @@
   padding-left: 10px;
 }
 
-.nInMagazine, .nEditorPicks {
-  padding: 20px 0;
-}
-
 .nInMagazine .logo, .nEditorPicks .logo, .fSlideshows .logo {
   width: 40px;
 }
