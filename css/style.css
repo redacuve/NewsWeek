@@ -148,9 +148,6 @@
   width: 200px;
 }
 
-.news .histories {
-  min-height: 200px;
-}
 .history-img-wrap .img-cover {
   top: 1.56em;
   left: 3.00em;
@@ -223,5 +220,9 @@ header, main, footer {
   .latest-news .histories .history-img-container {
     width: 100%;
     float: left;
+  }
+
+  .news .histories .history-img-container img {
+    width: 100px;
   }
 }
