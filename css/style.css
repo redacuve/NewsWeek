@@ -223,13 +223,13 @@ header nav::before {
   width: 32px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .social-media-container {
     text-align: end;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   .history-text p {
     font-size: 15px;
   }
