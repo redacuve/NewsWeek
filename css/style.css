@@ -26,7 +26,7 @@
 }
 
 .text-gray {
-  color: rgba(39,39,39,.5);
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .fsize-10p {
@@ -74,7 +74,7 @@
 }
 
 .button:hover {
-  background: #000000;
+  background: #000;
   color: white;
 }
 
@@ -93,7 +93,8 @@
   width: calc(100% - 70px);
 }
 
-.opinion hr, .footer hr {
+.opinion hr,
+.footer hr {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -107,16 +108,19 @@
   width: 30px;
 }
 
+.nInMagazine span,
+.nEditorPicks span {
+  padding-left: 20px;
+}
+
 .signup .logo-container span {
   padding-left: 10px;
 }
 
-.nInMagazine .logo, .nEditorPicks .logo, .fSlideshows .logo {
+.nInMagazine .logo,
+.nEditorPicks .logo,
+.fSlideshows .logo {
   width: 40px;
-}
-
-.nInMagazine span, .nEditorPicks span {
-  padding-left: 20px;
 }
 
 .nInMagazine-container .histories span {
@@ -149,11 +153,13 @@
 }
 
 .history-img-wrap .img-cover {
-  left: 3.00em;
+  left: 3em;
   top: 1.56em;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   margin: 0 auto;
   max-width: 1310px;
 }
@@ -182,7 +188,7 @@ header, main, footer {
 }
 
 .latest-news hr {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 .latest-news .histories .history-img-container {
@@ -216,6 +222,7 @@ header nav::before {
   top: 0;
   width: 32px;
 }
+
 @media (min-width: 768px){
   .social-media-container {
     text-align: end;
