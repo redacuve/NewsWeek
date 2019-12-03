@@ -208,7 +208,7 @@ header, main, footer {
   width: 100%;
 }
 
-@media(min-width: 767px){
+@media(min-width: 768px){
 
 }
 
@@ -222,5 +222,10 @@ header, main, footer {
   .latest-news .histories .history-text {
     width: 100%;
     display: inline-block;
+  }
+
+  .latest-news .histories .history-img-container {
+    width: 100%;
+    float: left;
   }
 }
