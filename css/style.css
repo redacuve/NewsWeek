@@ -159,7 +159,8 @@
 
 header,
 main,
-footer {
+footer,
+.top-navbar {
   margin: 0 auto;
   max-width: 1310px;
 }
@@ -226,6 +227,11 @@ header nav::before {
 .nInMagazine-container .inmagazine-articles .history-img {
   height: 130px;
   overflow: hidden;
+}
+
+.big-navbar {
+  position: relative;
+  z-index: 3000;
 }
 
 @media (min-width: 768px) {
