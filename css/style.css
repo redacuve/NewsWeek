@@ -238,6 +238,11 @@ header nav::before {
   .history-text p {
     font-size: 15px;
   }
+
+  .culture-travel .history-img {
+    max-height: 80px;
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 992px) {
@@ -253,5 +258,10 @@ header nav::before {
 
   .news .histories .history-img-container img {
     width: 100px;
+  }
+
+  .culture-travel .history-img {
+    max-height: 120px;
+    overflow: hidden;
   }
 }
