@@ -13,7 +13,7 @@
   <a href="https://github.com/redacuve/NewsWeek/tree"><strong>Explore the docs »</strong></a>
 <br>
 <br> 
-  <a href="https://raw.githack.com">View Demo</a>
+  <a href="https://raw.githack.com/redacuve/NewsWeek/front-page/index.html">View Demo</a>
 <br> 
   <a href="https://github.com/redacuve/NewsWeek/issues">Request Feature</a>
 </p>
