@@ -223,6 +223,11 @@ header nav::before {
   width: 32px;
 }
 
+.nInMagazine-container .inmagazine-articles .history-img {
+  height: 130px;
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
   .social-media-container {
     text-align: end;
