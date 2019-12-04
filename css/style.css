@@ -227,6 +227,11 @@ header nav::before {
   .social-media-container {
     text-align: end;
   }
+
+  .more-stories {
+    max-height: 1400px;
+    overflow: scroll;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
