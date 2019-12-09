@@ -10,10 +10,10 @@
 <h3 align="center">#7 Project. Using Boostrap</h3>
 <p align="center">
 <br>
-  <a href="https://github.com/redacuve/NewsWeek/tree"><strong>Explore the docs »</strong></a>
+  <a href="https://github.com/redacuve/NewsWeek/"><strong>Explore the docs »</strong></a>
 <br>
 <br> 
-  <a href="https://raw.githack.com/redacuve/NewsWeek/front-page/index.html">View Demo</a>
+  <a href="https://cdn.statically.io/gh/redacuve/NewsWeek/64c7bb8c/index.html">View Demo</a>
 <br> 
   <a href="https://github.com/redacuve/NewsWeek/issues">Request Feature</a>
 </p>
