@@ -24,8 +24,8 @@
 
   <body>
     <header>
-      <div class="container-fluid bg-newsweek py-1 py-sm-2 py-lg-3">
-        <div class="row align-items-center align-items-md-end">
+      <nav class="container-fluid bg-newsweek py-1 py-sm-2 py-lg-3">
+        <div class="row align-items-center align-items-lg-end">
           <span class="text-light d-none d-lg-block col-4">
             Fri, Nov 29, 2019
           </span>
@@ -53,20 +53,38 @@
                 <a
                   href="#"
                   class="text-uppercase btn btn-light text-newsweek font-weight-bold"
-                >
+                  >
                   Subscribe &gt;
                 </a>
               </div>
               <div class="col-auto d-lg-none pl-0">
-                <a href="#" class="text-dark">
+                <span id="hamburger-menu" class="text-light">
                   <i class="fas fa-bars"></i>
-                </a>
+                </span>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
+      </nav>
+      <nav class="d-none d-lg-block navbar navbar-expand-lg">
+        <ul class="navbar-nav bg-light">
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">U.S</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">World</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Business</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Tech &amp; Science</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Culture</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Newsgeek</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Sports</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Health</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Opinion</a></li>
+            <li class="nav-item"><a href="#" class="nav-link font-weight-bold text-dark">Vantaje</a></li>
+            <li class="nav-item">
+                <form class="form-inline my-2 my-md-0">
+                  <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form>
+            </li>
+        </ul>
+    </nav>
     </header>
     <main class="container-fluid">
       <div class="row">
@@ -2130,5 +2148,8 @@
         </ul>
       </div>
     </footer>
+    <script type="text/javascript">
+      document.getElementById('hamburger-menu').addEventListener('click', ()=>{console.log('Clicked')})
+    </script>
   </body>
 </html>

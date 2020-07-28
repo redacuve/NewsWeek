@@ -28,3 +28,15 @@
 .text-gray {
   color: rgba(39, 39, 39, 0.5);
 }
+
+header .navbar::before {
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+}
