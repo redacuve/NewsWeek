@@ -98,6 +98,12 @@ header .navbar::before {
   width: 100%;
 }
 
+.leaf {
+  display: inline-block;
+  margin: 6px 0;
+  padding-right: 20px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
