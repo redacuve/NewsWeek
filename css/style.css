@@ -104,6 +104,10 @@ header .navbar::before {
   padding-right: 20px;
 }
 
+.nInMagazine-container .booksToBuy .history-img-section{
+  font-size: 1.3rem;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
@@ -122,6 +126,9 @@ header .navbar::before {
     width: 50%;
     margin-right: 5px;
   }
+  .nInMagazine-container .booksToBuy .history-img-section{
+    font-size: 0.7rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -132,6 +139,9 @@ header .navbar::before {
   }
   .latest-news img {
     height: 150px;
+  }
+  .nInMagazine-container .booksToBuy .history-img-section{
+    font-size: 1rem;
   }
 }
 
