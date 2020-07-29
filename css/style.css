@@ -108,6 +108,12 @@ header .navbar::before {
   font-size: 1.3rem;
 }
 
+div.row.inmagazine-articles > div > div > img {
+  object-fit: cover;
+  height: 165px;
+  width: 100%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
@@ -116,6 +122,11 @@ header .navbar::before {
   }
   .culture-travel .history-img {
     height: 120px;
+  }
+  div.row.inmagazine-articles > div > div > img {
+    object-fit: cover;
+    height: 235px;
+    width: 100%;
   }
 
 }
@@ -128,6 +139,11 @@ header .navbar::before {
   }
   .nInMagazine-container .booksToBuy .history-img-section{
     font-size: 0.7rem;
+  }
+  div.row.inmagazine-articles > div > div > img {
+    object-fit: cover;
+    height: 105px;
+    width: 100%;
   }
 }
 
@@ -153,5 +169,10 @@ header .navbar::before {
   }
   .latest-news img {
     height: 200px;
+  }
+  div.row.inmagazine-articles > div > div > img {
+    object-fit: cover;
+    height: 165px;
+    width: 100%;
   }
 }
