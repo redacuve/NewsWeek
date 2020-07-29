@@ -120,6 +120,10 @@ div.row.inmagazine-articles > div > div > img {
   width: 100%;
 }
 
+.bg-slideshow {
+  background: url(../resources/icon-slideshows-nw.png) 0/contain no-repeat;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
