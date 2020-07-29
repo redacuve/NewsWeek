@@ -124,6 +124,15 @@ div.row.inmagazine-articles > div > div > img {
   background: url(../resources/icon-slideshows-nw.png) 0/contain no-repeat;
 }
 
+.history-img-wrap {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.history-img-wrap .img-cover {
+  left: 3em;
+  top: 1.56em;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
