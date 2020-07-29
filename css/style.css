@@ -92,6 +92,12 @@ header .navbar::before {
   width: 100px;
 }
 
+.latest-news img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
@@ -114,10 +120,22 @@ header .navbar::before {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+  .more-stories .history-img-container {
+    width: 40%;
+    margin-right: 5px;
+  }
+  .latest-news img {
+    height: 150px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+  .more-stories .history-img-container {
+    width: 30%;
+    margin-right: 5px;
+  }
+  .latest-news img {
+    height: 200px;
+  }
 }
