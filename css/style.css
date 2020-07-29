@@ -88,6 +88,10 @@ header .navbar::before {
   margin-right: 5px;
 }
 
+.author-photo {
+  width: 100px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
@@ -97,6 +101,7 @@ header .navbar::before {
   .culture-travel .history-img {
     height: 120px;
   }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
