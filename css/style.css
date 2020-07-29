@@ -124,6 +124,7 @@ div.row.inmagazine-articles > div > div > img {
   background: url(../resources/icon-slideshows-nw.png) 0/contain no-repeat;
 }
 
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
@@ -155,6 +156,11 @@ div.row.inmagazine-articles > div > div > img {
     height: 105px;
     width: 100%;
   }
+  .news .histories-main img {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -168,6 +174,10 @@ div.row.inmagazine-articles > div > div > img {
   }
   .nInMagazine-container .booksToBuy .history-img-section{
     font-size: 1rem;
+  }
+  .news .histories-main img {
+    object-fit: cover;
+    height: 200px;
   }
 }
 
@@ -190,5 +200,9 @@ div.row.inmagazine-articles > div > div > img {
     object-fit: cover;
     height: 200px;
     width: 100%;
+  }
+  .news .histories-main img {
+    object-fit: cover;
+    height: 250px;
   }
 }
