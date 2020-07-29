@@ -114,6 +114,12 @@ div.row.inmagazine-articles > div > div > img {
   width: 100%;
 }
 
+.fSlideshows-container .histories img{
+  object-fit: cover;
+  height: 165px;
+  width: 100%;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .more-stories .history-img-container {
@@ -173,6 +179,12 @@ div.row.inmagazine-articles > div > div > img {
   div.row.inmagazine-articles > div > div > img {
     object-fit: cover;
     height: 165px;
+    width: 100%;
+  }
+
+  .fSlideshows-container .histories img{
+    object-fit: cover;
+    height: 200px;
     width: 100%;
   }
 }
