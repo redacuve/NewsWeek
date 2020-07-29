@@ -29,6 +29,30 @@
   color: rgba(39, 39, 39, 0.5);
 }
 
+.fsize-10p {
+  font-size: 10px;
+}
+
+.fsize-15p {
+  font-size: 15px;
+}
+
+.fsize-13p {
+  font-size: 13px;
+}
+
+.fsize-14p {
+  font-size: 14px;
+}
+
+.fsize-17p {
+  font-size: 17px;
+}
+
+.fsize-20p {
+  font-size: 1.53rem;
+}
+
 header .navbar::before {
   background-color: #f72210;
   border-left: 12px solid white;
@@ -39,4 +63,56 @@ header .navbar::before {
   right: 0;
   top: 0;
   width: 32px;
+}
+
+.history-img-section {
+  bottom: 0;
+  left: 0;
+}
+
+.culture-travel .history-img {
+  object-fit: cover;
+  height: 100px;
+  width: 100%;
+}
+
+.culture-travel button {
+  background: #c2d4d7;
+  border: 0;
+  font-size: 0.8rem;
+}
+
+.more-stories .history-img-container {
+  width: 95px;
+  float: left;
+  margin-right: 5px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .more-stories .history-img-container {
+    width: 30%;
+    margin-right: 5px;
+  }
+  .culture-travel .history-img {
+    height: 120px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .more-stories .history-img-container {
+    width: 50%;
+    margin-right: 5px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
 }
