@@ -1,4 +1,13 @@
-# NewsWeek
+<!-- Badges -->
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.2-red.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: GPLv3 " src="https://img.shields.io/badge/License-GPL-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/redacuve" target="_blank">
+    <img alt="Twitter: redacuve " src="https://img.shields.io/twitter/follow/redacuve.svg?style=social" />
+  </a>
+</p>
 
 <!-- PROJECT LOGO -->
 
@@ -7,16 +16,15 @@
   <a href="https://commons.wikimedia.org/wiki/File:Newsweek_Logo.svg">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/320px-Newsweek_Logo.svg.png" alt="Logo">
   </a>
-<h3 align="center">#7 Project. Using Boostrap</h3>
+<h1 align="center">Project Cloning Newsweek Using Bootstrap</h1>
 <p align="center">
-<br>
-  <a href="https://github.com/redacuve/NewsWeek/"><strong>Explore the docs »</strong></a>
-<br>
-<br> 
-  <a href="https://cdn.statically.io/gh/redacuve/NewsWeek/64c7bb8c/index.html">View Demo</a>
-<br> 
+  <br>
+  <a href="https://github.com/redacuve/NewsWeek/"><strong>Explore the repo »</strong></a>
+  <br>
   <a href="https://github.com/redacuve/NewsWeek/issues">Request Feature</a>
 </p>
+<h2 align="center"><a href="https://github.com/redacuve/NewsWeek/issues"><strong>Live Link!</strong></a></h2>
+
   
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -33,8 +41,6 @@
 
 * [Contact](#contact)
 
-* [Acknowledgements](#acknowledgements)
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -45,9 +51,14 @@ In this project, I copied the style and layout of the Newsweek site &lt;<a href=
 Project created using HTML and CSS3 and Boostrap Framework in the Version 4.4.1.
 <br>
 <br>
-For more details about this project <em>&lt;Using Boostrap&gt;</em> and it's requirements go to <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap">The Odin Project</a>
+For more details about this project <em>&lt;Using Boostrap&gt;</em> and it's requirements visit <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap">The Odin Project</a>
 
-### Built With
+<p align="center">
+  <img src="newsweek.gif" width="450">
+</p>
+
+
+## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
@@ -82,7 +93,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-No licenses required as project was developed in educational eviroment.
+This project is under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU Public License V3</a>. For more information see <a href="https://github.com/redacuve/NewsWeek/blob/master/LICENSE">here</a>
 <br>
 Bootstrap uses an <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE">MIT License</a>
 
@@ -90,12 +101,7 @@ Bootstrap uses an <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE
 
 ## Contact
 
-Rey David Cuevas Vela - [@redacuve](https://twitter.com/redacuve) - redacuve@gmail.com
+Rey David Cuevas Vela - [@redacuve](https://twitter.com/redacuve) - [redacuve@gmail.com](mailto:redacuve@gmail.com) -[linkedin.com/in/redacuve/](https://www.linkedin.com/in/redacuve/)
 
 Project Link: [github.com/redacuve/NewsWeek](https://github.com/redacuve/NewsWeek)
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-* [Rey David Cuevas Vela](https://github.com/redacuve)
