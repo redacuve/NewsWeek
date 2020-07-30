@@ -23,7 +23,7 @@
   <br>
   <a href="https://github.com/redacuve/NewsWeek/issues">Request Feature</a>
 </p>
-<h2 align="center"><a href="https://github.com/redacuve/NewsWeek/issues"><strong>Live Link!</strong></a></h2>
+<h2 align="center"><a href="https://raw.githack.com/redacuve/NewsWeek/master/index.html"><strong>Live Link!</strong></a></h2>
 
   
 <!-- TABLE OF CONTENTS -->
